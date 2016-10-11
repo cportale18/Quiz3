@@ -16,5 +16,12 @@ public class TriangleTest {
 		Triangle myTriangle = new Triangle(4,6,2);
 		assertEquals(12.0,12.0);
 		}
+	
+	public void TrianglExceptionTest(Object TriangleException) {
+		testArea();
+		testPerimeter();
+			
+		}
 	}
+
 
